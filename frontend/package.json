@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^2.4.0",
+    "orionsoft-react-scripts": "0.7.5"
+  },
+  "dependencies": {
+    "apollo-client": "^0.5.24",
+    "graphql-tag": "^1.1.2",
+    "react": "^15.4.1",
+    "react-apollo": "^0.7.2",
+    "react-dom": "^15.4.1",
+    "react-router": "^3.0.0",
+    "simple-react-form": "^1.8.0"
+  },
+  "scripts": {
+    "start": "./node_modules/orionsoft-react-scripts/bin/react-scripts.js start",
+    "start:watch": "watch npm\\ start ./node_modules/orionsoft-react-scripts",
+    "build": "./node_modules/orionsoft-react-scripts/bin/react-scripts.js build",
+    "test": "./node_modules/orionsoft-react-scripts/bin/react-scripts.js test --env=jsdom",
+    "eject": "./node_modules/orionsoft-react-scripts/bin/react-scripts.js eject"
+  }
+}

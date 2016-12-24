@@ -3,6 +3,7 @@ type User {
  _id: ID
  emails: [Email]
  profile: UserProfile
+ todos: [Todo]
 }
 # Defines a user profile type and its fields
 type UserProfile {
@@ -12,4 +13,10 @@ type UserProfile {
 type Email {
  address: String
  verified: Boolean
+}
+
+type Todo {
+  _id: ID
+  todo: String
+  done: Boolean
 }
